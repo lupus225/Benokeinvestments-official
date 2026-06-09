@@ -108,3 +108,44 @@ h1{
   box-shadow:0 4px 10px rgba(0,0,0,0.3);
   z-index:1000;
 }
+/* Contact Page */
+
+.contact-container{
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    min-height: 150px;
+    resize: vertical;
+}
+
+button{
+    background: #f4b400;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.9;
+}
